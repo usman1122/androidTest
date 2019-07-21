@@ -1,3 +1,6 @@
+Usman Farrukh
+
+
 # Android Coding Test
 
 The following challenge will test your coding skills. Important to us is efficiency and your approach to a problem.
