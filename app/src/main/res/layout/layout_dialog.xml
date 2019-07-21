@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:orientation="vertical"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:id="@+id/rel_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/img_large"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+
+            </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <Button
+        android:id="@+id/privacyButton"
+        android:layout_width="@dimen/_105sdp"
+        android:layout_height="@dimen/_27sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:lineSpacingExtra="11dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/gradint_buton"
+        android:gravity="center"
+        android:text="CLOSE"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp" />
+
+</RelativeLayout>

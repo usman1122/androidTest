@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">atTechTest</string>
+    <string name="title_activity_main_actvty">MoviesList</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sa3">SA3</string>
+    <string name="headerKey">e95c5c33d38a6be5f25c91d64c8d80e0</string>
+</resources>
